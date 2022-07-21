@@ -1,0 +1,88 @@
+
+[ 
+    {
+        "id": 1,
+        "name": "Pedro",
+        "nif": "123123v",
+        "surname": "Lopez",
+        "secondSurname": "Perez",
+        "gender": "male",
+        "dateOfBirth": "2010-01-01",
+        "address": {
+            "street": "C/ Mayor",
+            "number": 12,
+            "postalCode":"1010",
+            "door": "3",
+            "cicy": "Madrid"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Juan",
+        "nif": "123124v",
+        "surname": "Perez",
+        "secondSurname": "Lopez",
+        "gender": "male",
+        "dateOfBirth": "2001-01-01",
+        "address": {
+            "street": "C/ Mayor",
+            "number": 12,
+            "postalCode":"1010",
+            "door": "3",
+            "cicy": "Barcelona"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Pedro",
+        "nif": "123124v",
+        "surname": "Perez",
+        "secondSurname": "Lopez",
+        "gender": "male",
+        "dateOfBirth": "2001-01-01",
+        "address": {
+            "street": "C/ Mayor",
+            "number": 12,
+            "postalCode":"1010",
+            "door": "3",
+            "cicy": "Barcelona"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Juan",
+        "nif": "123124v",
+        "surname": "Perez",
+        "secondSurname": "Lopez",
+        "gender": "male",
+        "dateOfBirth": "2001-01-01",
+        "address": {
+            "street": "C/ Mayor",
+            "number": 12,
+            "postalCode":"1010",
+            "door": "3",
+            "cicy": "Barcelona"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Luis",
+        "nif": "123124v",
+        "surname": "Perez",
+        "secondSurname": "Lopez",
+        "gender": "male",
+        "dateOfBirth": "2001-01-01",
+        "address": {
+            "street": "C/ Mayor",
+            "number": 12,
+            "postalCode":"1010",
+            "door": "3",
+            "cicy": "Barcelona"
+        },
+        "professional": {
+            "type": "",
+            "collegeNumber": "123456"
+        }
+    }
+ 
+]

@@ -1,0 +1,30 @@
+<h2>User list</h2>
+
+  <!--<li *ngFor="let user of users">
+    <button type="button" (click)="onSelect(user)">
+      <span class="badge">{{user.name}}</span>
+      <span class="name">{{user.surname}}</span>
+    </button> 
+    <user-row></user-row>
+  </li>-->
+
+  <mat-list>
+    <mat-list-item *ngFor="let user of users">
+      <h3 matLine> {{user.name}} {{user.surname}} {{user.secondSurname}}  </h3>
+      <p matLine>
+        <span> Editar </span>
+        <span class="demo-2"> </span>
+        <button type="button" (click)="onSelect(user)">Editar</button>
+      </p>
+    </mat-list-item>
+  </mat-list>
+
+
+<div *ngIf="selectedUser">
+    <h2>{{selectedUser.name | uppercase}} Details</h2>
+    <div>id: {{selectedUser.id}}</div>
+    <div>
+      <label for="user-name">User name: </label>
+      <input id="user-name" [(ngModel)]="selectedUser.name" placeholder="name">
+    </div>
+</div>
